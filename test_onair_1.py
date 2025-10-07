@@ -1,7 +1,4 @@
 
-# Φορτώνει το .env αρχείο
-load_dotenv()
-
 def gpt_mistral_diorthosi_streamlit(text):
     api_key = os.environ["MISTRAL_API_KEY"]
     model = "mistral-large-latest"
